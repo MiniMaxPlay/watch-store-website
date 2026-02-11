@@ -135,10 +135,12 @@ body {
   width: 115px;
   height: 42px;
   margin-top: 20px;
+  color: #FE8B6F;
   font-family: Poppins-ExtraBold;
   font-size: 28px;
 }
 .main-container-1-2-text-a-button {
+  text-decoration: none;
   display: flex;
   width: 126px;
   height: 54px;
@@ -151,11 +153,49 @@ body {
   font-size: 16px;
   color: #FFFFFF;
 }
-.main-container-1-2-img {
+.main-container-1-2-img1 {
   width: 599px;
-  height: 699px;
-  float: right;
-  background-color: #1b0fbf;
+  height: 599px;
+  margin-left: auto;
+  margin-top: 50px;
+  background: rgba(254, 139, 111, 0.3);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 190px;
+  position: relative;
+}
+.main-container-1-2-img1-img2 {
+  width: 499px;
+  height: 499px;
+  margin: 50px;
+  background: #FE8B6F;
+  border-radius: 160px;
+}
+.main-container-1-2-img1-img2-mainimg {
+  position: absolute;
+  top: -50px;
+  left: 97px;
+}
+.main-additional-decoration1 {
+  position: absolute;
+  width: 603px;
+  height: 1000px;
+  left: 1317px;
+  top: 0px;
+  background: rgba(254, 139, 111, 0.15);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+  border-top-left-radius: 250px;
+  border-bottom-left-radius: 250px;
+  z-index: -1;
+}
+.main-additional-decoration2 {
+  position: absolute;
+  top: 834px;
+  left: 87px;
+}
+.main-additional-decoration3 {
+  position: absolute;
+  top: 868px;
+  left: 1788px;
 }
 
 /*# sourceMappingURL=style.css.map */

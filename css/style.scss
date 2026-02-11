@@ -162,11 +162,14 @@ body{
                     height: 42px;
                     margin-top: 20px;
 
+                    color: #FE8B6F;
+
                     font-family: Poppins-ExtraBold;
                     font-size: 28px;
                 }
 
                 &-a-button{
+                    text-decoration: none;
                     display: flex;
                     width: 126px;
                     height: 54px;
@@ -183,12 +186,59 @@ body{
                 }
             }
 
-            &-img{
+            &-img1{
                 width: 599px;
-                height: 699px;
+                height: 599px;
+                margin-left: auto;
+                margin-top: 50px;
 
-                background-color: #1b0fbf;
+                background: rgba(254, 139, 111, 0.3);
+                box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+                border-radius: 190px;
+
+                position: relative;
+
+                &-img2{
+                    width: 499px;
+                    height: 499px;
+                    margin: 50px;
+                    background: #FE8B6F;
+                    border-radius: 160px;
+
+                    &-mainimg{
+                        position: absolute;
+                        top: -50px;
+                        left: 97px;
+                    }
+                }
             }
         }
+    }
+
+    &-additional-decoration1{
+        position: absolute;
+        width: 603px;
+        height: 1000px;
+        left: 1317px;
+        top: 0px;
+
+        background: rgba(254, 139, 111, 0.15);
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+
+        border-top-left-radius: 250px;
+        border-bottom-left-radius: 250px;
+        z-index: -1;
+    }
+
+    &-additional-decoration2{
+        position: absolute;
+        top: 834px;
+        left: 87px;
+    }
+
+    &-additional-decoration3{
+        position: absolute;
+        top: 868px;
+        left: 1788px;
     }
 }
